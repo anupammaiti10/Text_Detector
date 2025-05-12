@@ -1,0 +1,6 @@
+flask
+streamlit
+transformers
+torch
+requests
+flask_cors
