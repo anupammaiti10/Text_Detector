@@ -5,9 +5,8 @@ app=Flask(__name__)
 CORS(app)
 # Load the detector pipeline
 detector = pipeline("text-classification", model="roberta-base-openai-detector")
-
-@app.route("/test",methods=["post"])
-def detect_text():
+@app.route("/test",methods=["post"])  
+def detect_text():          
     try:
         data=request.json
         text=data["text"]
