@@ -1,7 +1,3 @@
-Certainly! Here’s a sample README.md-style introduction for your Text_Detector project. This template is designed to be clear and professional, following common README conventions:
-
----
-
 # Text_Detector
 
 Text_Detector is a Python-based project designed to accurately detect and extract text from images. This tool is ideal for applications such as Optical Character Recognition (OCR), document digitization, and image-based data analysis.
